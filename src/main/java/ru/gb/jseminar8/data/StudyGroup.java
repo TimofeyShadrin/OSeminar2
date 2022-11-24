@@ -37,9 +37,9 @@ public class StudyGroup {
 
     @Override
     public String toString() {
-        return "StudyGroup{" + this.id + "\n" +
+        return "\n\nStudyGroup No " + this.id + " {\n" +
                 "teacher=" + teacher +
                 "\nstudentList=" + studentList +
-                '}';
+                "}\n";
     }
 }

@@ -11,8 +11,7 @@ public class StudyGroupView{
         Logger logger = Logger.getAnonymousLogger();
         System.setProperty("java.util.logging.SimpleFormatter.format",
                 "%1$tF %1$tT %4$s %2$s %5$s%6$s%n");
-        studyGroups.forEach(group -> {
-            logger.info(group.toString());
-        });
+        logger.info("\n\n\t\t\t\t\tCURRENT LIST:\n");
+        studyGroups.forEach(group -> logger.info(group.toString()));
     }
 }

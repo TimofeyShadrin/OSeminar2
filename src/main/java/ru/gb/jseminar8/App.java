@@ -12,11 +12,16 @@ public class App
                 "Петр",
                 "Толстой",
                 "Иванович",
-                20);
+                19);
         controller.createStudyGroup(
                 "Ivan",
                 "Petrov",
                 "Jovanovich",
                 17);
+        controller.createStudyGroup(
+                "Ivan",
+                "Petrov",
+                "Jovanovich",
+                18);
     }
 }
